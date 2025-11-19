@@ -5,7 +5,6 @@ st.markdown(""" <style>
 footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def calculate_bmr(weight, feet, inches, age, sex):
     height = (feet * 12) + inches
